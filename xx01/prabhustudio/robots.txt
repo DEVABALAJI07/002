@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+# Block access to admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all important assets
+Allow: /logo.png
+Allow: /poster.jpg
+Allow: /*.jpg
+Allow: /*.png
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://prabhustudio.com/sitemap.xml
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
